@@ -8,13 +8,12 @@ import com.squareup.picasso.Picasso;
 
 public class MainActivity extends AppCompatActivity {
 
-    private ImageView imagePhoto;
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_main);
 
-        imagePhoto = (ImageView) findViewById(R.id.photo);
+        final ImageView imagePhoto = (ImageView) findViewById(R.id.photo);
 
         Picasso.with(this)
                 .load("https://img-fotki.yandex.ru/get/27216/201887739.0/0_129bee_32848fa9_XL")
