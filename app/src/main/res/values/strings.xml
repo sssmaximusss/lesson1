@@ -1,3 +1,5 @@
 <resources>
-    <string name="app_name">lesson1</string>
+    <string name="app_name">Business card!</string>
+    <string name="first_name">Maxim</string>
+    <string name="last_name">Smirnov</string>
 </resources>

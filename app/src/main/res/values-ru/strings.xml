@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Визитная карточка!</string>
+    <string name="first_name">Максим</string>
+    <string name="last_name">Смирнов</string>
+</resources>
